@@ -17,11 +17,11 @@ let f := fun z : Fin 14 → Bool => ∃ p l : Fin 7, (p=l ∨ p=l+1 ∨ p=l+3) �
   ∃ i : Fin 37, z=fun v => (cols.getD v.val 0).testBit (21+i.val))
     (program : let initial : List Nat := [288247147371954183,15270196031782968,58150373818816,94946423956573696,54820275478360064,3870282840506368,133412159488,759033086762549769,218716039641305168,189725234880873600,156548607028504576,229736628137050114,270286071509155872,288160007408582916]
 let step := fun (w : List Nat) (c : Fin 8192) =>
-  let a := w.getD (c.val%64) 0
-  let b := w.getD (c.val/64%64) 0
+  let a := w.getD (c.val % 64) 0
+  let b := w.getD (c.val / 64 % 64) 0
   w++[if c.val<4096 then a &&& b else a ||| b]
 ∃ s : List (Fin 8192), s.length≤26 ∧
-  (∀ i : Fin s.length, let t := (s.get i).val; t%64<t/64%64 ∧ t/64%64<14+i.val) ∧
+  (∀ i : Fin s.length, let t := (s.get i).val; t % 64 < t / 64 % 64 ∧ t / 64 % 64 < 14 + i.val) ∧
   ∃ u v : Fin (14+s.length), u≠v ∧
     let w := s.foldl step initial
     let a := w.getD u.val 0
@@ -33,11 +33,11 @@ let step := fun (w : List Nat) (c : Fin 8192) =>
   let f := fun z : Fin 14 → Bool => ∃ p l : Fin 7, inc p l ∧
     z (Fin.castAdd 7 p)=true ∧ z (Fin.natAdd 7 l)=true
   let step := fun (w : List Nat) (c : Fin 8192) =>
-    let a := w.getD (c.val%64) 0
-    let b := w.getD (c.val/64%64) 0
+    let a := w.getD (c.val % 64) 0
+    let b := w.getD (c.val / 64 % 64) 0
     w++[if c.val<4096 then a &&& b else a ||| b]
   let decode := fun (c : Fin 8192) =>
-    (⟨if c.val<4096 then .and else .or,[c.val%64,c.val/64%64]⟩ : Gate)
+    (⟨if c.val<4096 then .and else .or,[c.val % 64,c.val / 64 % 64]⟩ : Gate)
   let bit := fun (w : List Bool) (g : Gate) =>
     w++[g.op.eval (g.inputs.map fun i => w.getD i false)]
   have evAnd : ∀ a b : Bool, GateOp.and.eval [a,b]=(a && b) := by decide
@@ -90,7 +90,7 @@ let step := fun (w : List Nat) (c : Fin 8192) =>
       have eqg := Option.some.inj (atg.symm.trans e)
       subst g
       obtain ⟨ab,hi⟩ := pins ⟨k,hk⟩
-      refine ⟨?_,s[k].val%64,s[k].val/64%64,rfl,ab.ne,ab.trans hi,hi⟩
+      refine ⟨?_,s[k].val % 64,s[k].val / 64 % 64,rfl,ab.ne,ab.trans hi,hi⟩
       by_cases h : s[k].val<4096 <;> simp [decode,h]
     · have lk := (List.getElem?_eq_some_iff.1 atg).1
       have full : C.gates.length=s.length+1 := by simp [C,gs]
