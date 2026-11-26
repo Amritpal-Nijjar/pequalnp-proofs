@@ -1,0 +1,25 @@
+'BranchCharge.three_for_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FourFork.no_four_edge_fork' depends on axioms: [propext, Classical.choice, Quot.sound]
+Propositional circuit: 1535 nodes, 5488 clauses.
+'FourFork.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HiddenRaw4.only_hidden' depends on axioms: [propext, Classical.choice, Quot.sound]
+Propositional circuit: 316 nodes, 1115 clauses.
+'HiddenStarCert.impossible' depends on axioms: [propext]
+'BranchCharge.count_later_ors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BranchCharge.single_raw_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FourPath.no_four_edge_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+Propositional circuit: 1136 nodes, 4151 clauses.
+'FourPath.impossible' depends on axioms: [propext]
+'ResidualChange.residual_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StarCenters.no_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StarRawGlue.good_on_stars' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StarRawGlue.physical_masks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VisibleRaw.path_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VisibleSignal4.center_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VisibleSignal4.pair_signal' depends on axioms: [propext, Classical.choice, Quot.sound]
+replaying BranchCharge (leanchecker exit 0)
+replaying ForkBound4 (leanchecker exit 0)
+replaying ForkExclusion (leanchecker exit 0)
+replaying PathBound4 (leanchecker exit 0)
+replaying PathExclusion (leanchecker exit 0)
+replaying ResidualShrink (leanchecker exit 0)

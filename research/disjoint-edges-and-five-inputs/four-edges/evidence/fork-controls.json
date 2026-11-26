@@ -1,0 +1,52 @@
+[
+  {
+    "mono": true,
+    "all_rows": false,
+    "encodings": 5184,
+    "clean": 29,
+    "essential": 2,
+    "with_charge": 0,
+    "example": null
+  },
+  {
+    "mono": true,
+    "all_rows": true,
+    "encodings": 5184,
+    "clean": 29,
+    "essential": 2,
+    "with_charge": 0,
+    "example": null
+  },
+  {
+    "mono": false,
+    "all_rows": false,
+    "encodings": 82944,
+    "clean": 909,
+    "essential": 36,
+    "with_charge": 8,
+    "example": [
+      8,
+      16,
+      9,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "mono": false,
+    "all_rows": true,
+    "encodings": 82944,
+    "clean": 807,
+    "essential": 36,
+    "with_charge": 8,
+    "example": [
+      8,
+      16,
+      9,
+      1,
+      0,
+      1
+    ]
+  }
+]

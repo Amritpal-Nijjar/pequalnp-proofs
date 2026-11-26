@@ -1,0 +1,21 @@
+{
+  "replayed": true,
+  "counts": {
+    "star3_edge": {
+      "encodings": 293800,
+      "clean": 1414,
+      "essential": 56,
+      "charged": 0
+    },
+    "star2_star2": {
+      "encodings": 380272,
+      "clean": 594,
+      "essential": 0,
+      "charged": 0
+    }
+  },
+  "hidden_controls": [
+    0,
+    8
+  ]
+}

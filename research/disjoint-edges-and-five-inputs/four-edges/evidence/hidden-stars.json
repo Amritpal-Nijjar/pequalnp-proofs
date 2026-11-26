@@ -1,0 +1,48 @@
+{
+  "tested_inputs": 64,
+  "good": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9,
+    16,
+    18,
+    20,
+    32,
+    34,
+    36
+  ],
+  "one_allowed_bad": {
+    "table_pairs_summed_over_menus": 492400,
+    "clean": 192,
+    "essential": 28,
+    "single_visible_signal": 0,
+    "signal_alone": 0,
+    "example": null
+  },
+  "two_bad_control": {
+    "table_pairs_summed_over_menus": 14302,
+    "clean": 62,
+    "essential": 46,
+    "single_visible_signal": 8,
+    "signal_alone": 8,
+    "example": [
+      [
+        1,
+        6
+      ],
+      [
+        [
+          8,
+          false
+        ],
+        [
+          48,
+          false
+        ]
+      ]
+    ]
+  }
+}

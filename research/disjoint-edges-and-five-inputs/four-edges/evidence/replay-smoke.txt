@@ -1,0 +1,12 @@
+Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Building SixTerms
+Building PathTable
+Building KernelReplay
+Building PathExclusion
+Propositional circuit: 1136 nodes, 4151 clauses.
+'FourPath.impossible' depends on axioms: [propext]
+Building ForkTable
+Building ForkExclusion
+Propositional circuit: 1535 nodes, 5488 clauses.
+'FourFork.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+Verified PathExclusion, ForkExclusion

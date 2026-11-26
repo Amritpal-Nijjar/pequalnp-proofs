@@ -1,0 +1,868 @@
+[
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 58564,
+    "clean": 432,
+    "essential": 20,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 9604,
+    "clean": 29,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 58564,
+    "clean": 432,
+    "essential": 20,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 9604,
+    "clean": 29,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star3_edge",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 82,
+    "essential": 2,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 82944,
+    "clean": 42,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 58564,
+    "clean": 294,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 9604,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 54,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 54,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 54,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 9604,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 26244,
+    "clean": 54,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  },
+  {
+    "shape": "star2_star2",
+    "color": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "graph": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "encodings": 9604,
+    "clean": 6,
+    "essential": 0,
+    "charged": 0,
+    "survivor": null
+  }
+]

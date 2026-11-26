@@ -1,0 +1,236 @@
+{
+  "target": 4276677288,
+  "device": "NVIDIA GeForce RTX 5080",
+  "root_metadata": {
+    "stages": [
+      [
+        1,
+        20,
+        8
+      ],
+      [
+        2,
+        200,
+        81
+      ],
+      [
+        3,
+        2494,
+        1002
+      ],
+      [
+        4,
+        37354,
+        13790
+      ],
+      [
+        5,
+        616542,
+        207536
+      ]
+    ],
+    "roots": 207536,
+    "codes_sha256": "36dae9e5068685afa5749e64ac7f954c1e23e8c058fd07f8336414059e7025a5",
+    "banks_sha256": "455a07de212ddbcf9abe9d063cd6dc983996e7c892d48a4506def24f12a8a37c",
+    "finished": "2026-11-26T04:45:04+00:00"
+  },
+  "witnesses": [],
+  "positions": {
+    "6": {
+      "roots_complete": 207536,
+      "candidate_prefixes": 21367906560,
+      "complete": true
+    },
+    "7": {
+      "roots_complete": 207536,
+      "candidate_prefixes": 21093959040,
+      "complete": true
+    }
+  },
+  "cpu_crosschecks": [
+    {
+      "position": 6,
+      "tested": 10,
+      "hits": 1,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 5,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 6,
+      "tested": 5,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 4294967295
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 4,
+      "target": 4294967295
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 3705405440
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 4294967295
+    },
+    {
+      "position": 6,
+      "tested": 4,
+      "hits": 0,
+      "target": 4294967295
+    },
+    {
+      "position": 7,
+      "tested": 10,
+      "hits": 1,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 5,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 7,
+      "tested": 5,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 0
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 1,
+      "target": 4294967295
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 4294967295
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 4276677288
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 0,
+      "target": 3724476416
+    },
+    {
+      "position": 7,
+      "tested": 4,
+      "hits": 2,
+      "target": 0
+    }
+  ],
+  "elapsed_s": 2.0,
+  "complete": true,
+  "finished_utc": "2026-11-26T04:48:17+00:00",
+  "gpu_seconds": 3.017
+}

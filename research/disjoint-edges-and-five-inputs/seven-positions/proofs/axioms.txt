@@ -1,0 +1,5 @@
+'FiveInputBoundary.extremal_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiveInputBoundary.forced_extrema' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiveInputBoundary.one_not_within' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiveInputBoundary.one_not_exact_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiveInputBoundary.subset_input_test' depends on axioms: [propext, Classical.choice, Quot.sound]
