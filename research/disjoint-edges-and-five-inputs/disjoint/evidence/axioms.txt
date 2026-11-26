@@ -1,0 +1,33 @@
+Lean 4.36.0. Local theorem audit
+
+'DisjointCore.center_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixGeometry.actual_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixGeometry.forbid_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixPhysical.gates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixTops.actual_win' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixBridge.actual_passes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixTerms.no_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisjointBound.three_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisjointBound.matching_requires_hidden' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisjointBound.matching_requires_unreachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisjointBound.matching_forces_three_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisjointBound.three_from_pinned_signature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixControl.computes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixControl.gates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SixControl.chart_violation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Object replay of the named modules
+
+replaying SixBridge
+SixBridge leanchecker exit 0
+replaying SixExclusion
+SixExclusion leanchecker exit 0
+replaying DisjointBound
+DisjointBound leanchecker exit 0
+
+Certificate replay with SIX_CERT_GENERATE=0
+
+Propositional circuit: 1633 nodes, 5832 clauses.
+'SixTerms.no_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Enumeration replay agreed on all 64 graph records, 165987 schedules and 0 survivors.

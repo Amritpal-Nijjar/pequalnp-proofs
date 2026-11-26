@@ -1,0 +1,11 @@
+{
+  "not_slot_zero_based": 5,
+  "total_prefixes": 2884684,
+  "sha256": "f745fde8f4d3a5dd32fedae40fcb4766025d59596c73873da3039e1bacebd468",
+  "suffix_lower": 543784,
+  "prefix_boundary": 543784,
+  "witnesses": [],
+  "complete": true,
+  "positive_control": 4294965760,
+  "finished_utc": "2026-11-26T04:37:40+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "position": 5,
+  "length": 18,
+  "states": 2884684,
+  "stages": [
+    {
+      "gates": 1,
+      "transitions": 20,
+      "states": 8,
+      "sec": 0.0
+    },
+    {
+      "gates": 2,
+      "transitions": 200,
+      "states": 81,
+      "sec": 0.02
+    },
+    {
+      "gates": 3,
+      "transitions": 2494,
+      "states": 1002,
+      "sec": 0.17
+    },
+    {
+      "gates": 4,
+      "transitions": 37354,
+      "states": 13790,
+      "sec": 3.41
+    },
+    {
+      "gates": 5,
+      "transitions": 616542,
+      "states": 207536,
+      "sec": 66.16
+    },
+    {
+      "gates": 6,
+      "transitions": 3245520,
+      "states": 2884684,
+      "sec": 181.73
+    }
+  ],
+  "sha256": "f745fde8f4d3a5dd32fedae40fcb4766025d59596c73873da3039e1bacebd468"
+}

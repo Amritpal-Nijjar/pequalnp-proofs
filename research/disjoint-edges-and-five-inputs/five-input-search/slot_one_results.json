@@ -1,0 +1,103 @@
+{
+  "device": "NVIDIA GeForce RTX 5080",
+  "target": 4276677288,
+  "not_slot_zero_based": 1,
+  "input_renamings": 6,
+  "four_gate_prefixes_before_deduplication": 26580,
+  "canonical_prefixes": 3376,
+  "ordered_prefix_sha256": "228838f8756090571b4f2d6c1e8563f82f4a4f487a1346ca34c1d1e60b05aa42",
+  "families": {
+    "AND(0,1)": {
+      "total": 471,
+      "complete": 471,
+      "states": 96018436800,
+      "hits": 0
+    },
+    "AND(1,2)": {
+      "total": 538,
+      "complete": 538,
+      "states": 109677110400,
+      "hits": 0
+    },
+    "AND(1,4)": {
+      "total": 471,
+      "complete": 471,
+      "states": 96018436800,
+      "hits": 0
+    },
+    "OR(0,1)": {
+      "total": 471,
+      "complete": 471,
+      "states": 96018436800,
+      "hits": 0
+    },
+    "OR(0,4)": {
+      "total": 208,
+      "complete": 208,
+      "states": 42403046400,
+      "hits": 0
+    },
+    "OR(1,2)": {
+      "total": 538,
+      "complete": 538,
+      "states": 109677110400,
+      "hits": 0
+    },
+    "OR(1,4)": {
+      "total": 471,
+      "complete": 471,
+      "states": 96018436800,
+      "hits": 0
+    },
+    "AND(0,4)": {
+      "total": 208,
+      "complete": 208,
+      "states": 42403046400,
+      "hits": 0
+    }
+  },
+  "complete": true,
+  "candidates": [],
+  "checks": [
+    [
+      10,
+      4276678312,
+      256,
+      2
+    ],
+    [
+      10,
+      4276678312,
+      256,
+      2
+    ],
+    [
+      10,
+      4276677288,
+      65536,
+      0
+    ],
+    [
+      26,
+      4209568424,
+      256,
+      1
+    ],
+    [
+      26,
+      4209568424,
+      256,
+      1
+    ],
+    [
+      26,
+      4276677288,
+      65536,
+      0
+    ]
+  ],
+  "current_prefix_number": 3375,
+  "elapsed_s": 68.754,
+  "gpu_kernel_s": 59.795,
+  "finished_utc": "2026-11-26T04:25:27+00:00"
+}

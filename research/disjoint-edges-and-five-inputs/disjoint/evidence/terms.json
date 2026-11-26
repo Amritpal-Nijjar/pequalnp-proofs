@@ -1,0 +1,284 @@
+[
+  {
+    "extra_edges": [],
+    "guarded": false,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      10,
+      16,
+      17,
+      20,
+      21,
+      32,
+      34,
+      40,
+      42
+    ],
+    "schedules": 14670,
+    "models": 0,
+    "first_witness": null
+  },
+  {
+    "extra_edges": [],
+    "guarded": true,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      10,
+      16,
+      17,
+      20,
+      21,
+      32,
+      34,
+      40,
+      42
+    ],
+    "schedules": 14670,
+    "models": 0,
+    "first_witness": null
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ]
+    ],
+    "guarded": false,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      10,
+      16,
+      17,
+      20,
+      21,
+      32,
+      34,
+      40,
+      42
+    ],
+    "schedules": 14670,
+    "models": 35,
+    "first_witness": {
+      "first": [
+        5,
+        10
+      ],
+      "second": [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ],
+      "terms": [
+        "D0.A",
+        "D0.D",
+        "D1.F"
+      ]
+    }
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ]
+    ],
+    "guarded": true,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      17,
+      20,
+      32,
+      34,
+      40
+    ],
+    "schedules": 5404,
+    "models": 0,
+    "first_witness": null
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "guarded": false,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      10,
+      16,
+      17,
+      20,
+      21,
+      32,
+      34,
+      40,
+      42
+    ],
+    "schedules": 14670,
+    "models": 182,
+    "first_witness": {
+      "first": [
+        4,
+        4
+      ],
+      "second": [
+        [
+          17,
+          0
+        ],
+        [
+          34,
+          0
+        ]
+      ],
+      "terms": [
+        "D1.A",
+        "D0.D",
+        "D1.F"
+      ]
+    }
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "guarded": true,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      20,
+      32,
+      40
+    ],
+    "schedules": 2599,
+    "models": 0,
+    "first_witness": null
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "guarded": false,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8,
+      10,
+      16,
+      17,
+      20,
+      21,
+      32,
+      34,
+      40,
+      42
+    ],
+    "schedules": 14670,
+    "models": 140,
+    "first_witness": {
+      "first": [
+        4,
+        4
+      ],
+      "second": [
+        [
+          17,
+          0
+        ],
+        [
+          34,
+          0
+        ]
+      ],
+      "terms": [
+        "D1.B",
+        "D0.D",
+        "D1.E"
+      ]
+    }
+  },
+  {
+    "extra_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "guarded": true,
+    "menu": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      20,
+      32,
+      40
+    ],
+    "schedules": 2599,
+    "models": 0,
+    "first_witness": null
+  }
+]

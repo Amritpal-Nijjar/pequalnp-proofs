@@ -1,0 +1,17 @@
+[
+  {
+    "position_zero_based": 1,
+    "four_gate_prefixes": 26580,
+    "matching_classes": 3376
+  },
+  {
+    "position_zero_based": 2,
+    "four_gate_prefixes": 76200,
+    "matching_classes": 7054
+  },
+  {
+    "position_zero_based": 3,
+    "four_gate_prefixes": 119640,
+    "matching_classes": 6584
+  }
+]
